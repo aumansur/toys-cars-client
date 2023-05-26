@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.bgc{
+    background-color:  #e9a750;;
+    }
+    .pc{
+        color: #f6ab2e;
+    }
+    
+    .my-container{
+       max-width: 1180px;
+       margin: 0 auto;
+    
+    }
+    
+    .my-btn{
+        @apply bg-[#F6AB2E] hover:bg-[#F6AB2E] text-white font-bold py-2 px-4 rounded
+    }
